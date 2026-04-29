@@ -1,6 +1,6 @@
-public class SistemaFacturacion {
+public class LegacyBillingSystem {
 
-    public void generarComprobante(String nombre, String total) {
+    public void crearFacturaAntigua(String nombre, String total) {
         System.out.println("Generando comprobante...");
         System.out.println("Cliente: " + nombre);
         System.out.println("Total: " + total);

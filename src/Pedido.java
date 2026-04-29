@@ -2,9 +2,9 @@ public class Pedido {
 
     private Cliente cliente;
     private double monto;
-    private ServicioFactura servicioFactura;
+    private FacturaService servicioFactura;
 
-    public Pedido(Cliente cliente, double monto, ServicioFactura servicioFactura) {
+    public Pedido(Cliente cliente, double monto, FacturaService servicioFactura) {
         this.cliente = cliente;
         this.monto = monto;
         this.servicioFactura = servicioFactura;
